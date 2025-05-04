@@ -5,6 +5,12 @@ public class colaboracion{
 
     int notas = 10;
 
-    String saludo = "Hola";
+    static String saludo = "Hola";
+
+    public static void main(String[] args){
+
+        System.out.println(saludo);
+
+    }
 
 }
